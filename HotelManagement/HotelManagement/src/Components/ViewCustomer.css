@@ -1,0 +1,68 @@
+.viewcustomer-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(145deg, #e9f1ff, #f8fbff);
+    padding: 20px;
+}
+
+.viewcustomer-card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border: 1px solid #e6e6e6;
+}
+
+.viewcustomer-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d68864;
+    font-weight: 600;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.customer-table th {
+    background: #dd6e2e;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.customer-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Status badges (you can dynamically set class based on status) */
+.status {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.status.active {
+    background: #43a047;  /* green */
+}
+
+.status.completed {
+    background: #1e88e5;  /* blue */
+}
+
+.customer-table tr:hover {
+    background: #f4f7ff;
+}

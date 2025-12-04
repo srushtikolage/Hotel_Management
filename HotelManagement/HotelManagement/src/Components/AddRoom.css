@@ -1,0 +1,66 @@
+.room-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(145deg, #e8f0ff, #f5faff);
+    padding: 20px;
+}
+
+.room-form {
+    background: #ffffff;
+    padding: 30px 35px;
+    width: 380px;
+
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    border: 1px solid #e6e6e6;
+}
+
+.room-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: orange;
+}
+
+.form-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #424242;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #c5cae9;
+    background: #f8f9ff;
+    font-size: 15px;
+}
+
+.btn-addroom {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-addroom:hover {
+    background: #7d8bda;
+}

@@ -1,0 +1,82 @@
+/* Soft Gradient Background */
+.customer-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(145deg, #e8f0ff, #f5faff);
+    padding: 20px;
+}
+
+/* White Card Form */
+.customer-form {
+    background: #ffffff;
+    padding: 35px 40px;
+    border-radius: 20px;
+    width: 380px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e6e6e6;
+}
+
+/* Title */
+.customer-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: green;
+    font-weight: 600;
+}
+
+/* Grid Layout */
+.form-grid {
+    display: grid;
+    gap: 18px;
+}
+
+/* Labels */
+.form-group label {
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* Input Fields */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #c5cae9;
+    font-size: 15px;
+    background: #f8f9ff;
+    outline: none;
+    transition: 0.2s;
+}
+
+/* Input Focus Effect */
+.form-group input:focus {
+    border-color: #5c6bc0;
+    box-shadow: 0 0 5px rgba(92, 107, 192, 0.4);
+}
+
+/* Book Button */
+.btn-book {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+
+    background:green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background: #3f4ea8;
+}

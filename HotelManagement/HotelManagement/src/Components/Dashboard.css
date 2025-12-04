@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Gradient Background */
+.dashboard-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #e9e4d8, #d6c7b3, #f6f3ec);
+}
+
+.dashboard-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+/* Card Design */
+.card {
+  padding: 25px;
+  border-radius: 14px;
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Icons */
+.icon {
+  font-size: 45px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+/* Text Styles */
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.count {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* Premium Hotel Color Palette */
+.total {
+  background: linear-gradient(135deg, #f0b05d, #f1b570);
+}
+
+.booked {
+  background: linear-gradient(135deg, #ee8181, #ec7070);
+}
+
+.available {
+  background: linear-gradient(135deg, #58c777, #66cf88);
+}

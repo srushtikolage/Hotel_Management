@@ -1,0 +1,128 @@
+.viewroom-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(145deg, #e9f1ff, #f8fbff);
+    padding: 20px;
+}
+
+.viewroom-card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 900px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    border: 1px solid #e6e6e6;
+}
+
+.viewroom-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a237e;
+    font-weight: 600;
+}
+
+.room-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.room-table th {
+    background: #3949ab;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.room-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Status badges */
+.status {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.status.available {
+    background: #43a047;  /* green */
+}
+
+.status.booked {
+    background: #e53935;  /* red */
+}
+
+/* Action buttons */
+.action-btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+    transition: 0.2s;
+}
+
+.edit-btn {
+    background: #1e88e5;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #1565c0;
+}
+
+.delete-btn {
+    background: #e53935;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #b71c1c;
+}
+
+.room-table tr:hover {
+    background: #f4f7ff;
+}
+/* Action buttons */
+.action-btn {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px;
+    transition: 0.2s;
+}
+
+/* Edit Button */
+.edit-btn {
+    background: #1e88e5;   /* soft blue */
+    color: white;
+}
+.edit-btn:hover {
+    background: #1565c0;   /* darker blue on hover */
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #ce6361;   /* soft red */
+    color: white;
+}
+.delete-btn:hover {
+    background: #c56464;   /* darker red on hover */
+}
